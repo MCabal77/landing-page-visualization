@@ -119,6 +119,7 @@ body {
 .second-section-header{ 
   color: #fff;
   font-size: 22px;
+  font-weight: 500;
 }
 
 .cards-container { 
@@ -168,7 +169,34 @@ body {
 }
 
 .card-text {
+  font-size: 18px;
+  font-weight: light;
   text-align: center;
   margin: auto 0 auto 0;
   grid-row: 2/4;
+}
+
+.third-section {
+  background-color: #CAC4CE;
+  height: 35vh;
+  padding: 3em 0 3em 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote { 
+  font-size: 36px;
+}
+
+.author {
+  font-size: 18px;
+  align-self: flex-end;
+  margin-right: 10em;
+}
+
+.fourth-section {
+  background-color: #F7ECE1;
+  height: 35vh;
 }
