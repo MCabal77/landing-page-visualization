@@ -24,7 +24,6 @@ body {
   background-color: #242038;
   color: #fff;
   height: 50vh;
-  width: 100%;
   padding: 2rem 25rem 0 25rem;
 }
 
@@ -35,7 +34,7 @@ body {
 
 .nav-logo {
   font-size: 26px;
-  font-weight: 500;
+  font-weight: 400;
 
 }
 
@@ -105,4 +104,71 @@ body {
   border-radius: 10px;
   height: auto;
   width: 1000px;
+}
+
+.second-section {
+  background-color: #8D86C9;
+  height: 50vh;
+  padding: 2rem 0 0 0;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  flex-direction: column;
+}
+
+.second-section-header{ 
+  color: #fff;
+  font-size: 22px;
+}
+
+.cards-container { 
+  display: flex;
+  flex-wrap: wrap;
+  align-items: space-evenly;
+  justify-content: space-evenly;
+}
+
+.card {
+  margin: 20px;
+  padding: 20px;
+  width: 300px;
+  height: 300px;
+  display: grid;
+  grid-template-rows: 20px 50px 1fr 50px;
+  border-radius: 10px;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+  transition: all 0.2s;
+}
+
+.first-card {
+  background-color: #F7ECE1;
+  color: #000;
+}
+
+.second-card {
+  background-color: #CAC4CE;
+  color: #000;
+}
+
+.third-card {
+  background-color: #8D86C9;
+}
+
+.fourth-card {
+  background-color: #9067C6;
+}
+
+.fifth-card { 
+  background-color: #242038;
+}
+
+.card:hover {
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
+  transform: scale(1.01);
+}
+
+.card-text {
+  text-align: center;
+  margin: auto 0 auto 0;
+  grid-row: 2/4;
 }
