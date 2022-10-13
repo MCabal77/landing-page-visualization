@@ -225,3 +225,15 @@ body {
 .cta-button {
   border: 2px solid white;
 }
+
+.footer {
+  background-color: #242038;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-text {
+  color: #fff;
+}
