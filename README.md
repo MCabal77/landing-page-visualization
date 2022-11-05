@@ -14,8 +14,8 @@ Live at: [mcabal77.github.io/landing-page-visualization/](https://mcabal77.githu
 ## Usage/Examples
 Feel free to look around!
 
-![](imgs/webpage-1.png)
-![](imgs/webpage-2.png)
+![App Screenshot 1](imgs/webpage-1.png)
+![App Screenshot 1](imgs/webpage-2.png)
 
 ## Acknowledgements
 
